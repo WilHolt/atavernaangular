@@ -1,0 +1,37 @@
+body{
+    background:#EFDB9C;
+}
+footer button{
+    display: flex;
+    padding-top:40px !important;
+    padding-bottom:40px;
+    justify-content: center;
+    align-items: center;
+}
+footer button span{
+    margin-top:-25px !important;
+    width: 100%;
+}
+.create-game{
+    background: #86471F !important;
+}
+.new-game{
+    background: #60A865 !important;
+}
+#game h6{
+    font-size: 1.8rem;
+}
+.tag{
+    border-radius:20px;
+    background:#86471F;
+    margin-top:3rem; 
+    width: 100px;
+    font-size:0.7rem;
+}
+span{
+    margin-top:-25px !important;
+}
+.avatar{
+    margin-top:30px;
+    margin-bottom: 30px;
+}

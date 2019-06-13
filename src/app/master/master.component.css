@@ -1,0 +1,80 @@
+h3, p , h1 ,h2,h3, h4, h5, h6 {
+    color:#EFDB9C !important;
+}
+
+.level h3{
+ padding: 0;
+ margin-bottom:0;
+ margin-top:0;
+}
+.level h5{
+    padding: 0;
+    margin:0;
+}
+.progress:nth-of-type(2){
+    background-color: #60a864 !important;
+    border: 3px solid #569e5b;
+}
+.progress .determinate{
+    background: none;
+}
+.amarelo-fundo{
+    background: #EFDB9C;
+
+}
+.amarelo-fundo-texto{
+    color:#EFDB9C;
+}
+.attributes{
+    background:rgba(134,71,31,0.07)
+}
+.level h5 {
+    font-family: Enchanted Land;
+    font-size:2rem;
+}
+.level h3{
+    font-family: Enchanted Land;
+    font-size:4rem;
+}
+.marrom-text{
+    color:#86471F !important;
+}
+span{
+    color:#86471F;
+}
+footer{
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+}
+.page-footer{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background:#4E2B14!important;
+}
+nav a{
+    background: #86471F !important;
+}
+.btns-profile a{
+    background: none !important;
+
+}
+.profile{
+    z-index: 1000;
+    margin-top:-30px;
+}
+.mid{
+    display: flex;
+    justify-content: center;    
+    align-content: center;
+    align-items: center;
+}
+.mid a{
+    position: absolute;
+    margin-top:-230px;
+
+}
+.menu{
+    padding-top:100px;
+}

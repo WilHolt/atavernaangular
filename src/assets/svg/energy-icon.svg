@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <filter id="Ellipse_29" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_6" x="24.151" y="18.458" width="33.522" height="47.18" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="energy-icon" transform="translate(-1416 -4024)">
+    <g transform="matrix(1, 0, 0, 1, 1416, 4024)" filter="url(#Ellipse_29)">
+      <g id="Ellipse_29-2" data-name="Ellipse 29" transform="translate(9 6)" fill="#60a865" stroke="#579e5c" stroke-width="3">
+        <circle cx="31" cy="31" r="31" stroke="none"/>
+        <circle cx="31" cy="31" r="29.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_24" data-name="Group 24" transform="translate(1404 3371)">
+      <path id="Path_5" data-name="Path 5" d="M-309.181,4862.126l7.711-.126-6,10.476h6.913s-16.876,21.046-17.994,21.654,5.693-15.047,5.693-15.047h-6.2Z" transform="translate(362 -4185.199)" fill="#efdb9c" stroke="#a3ce5a" stroke-width="1"/>
+      <g transform="matrix(1, 0, 0, 1, 12, 653)" filter="url(#Path_6)">
+        <path id="Path_6-2" data-name="Path 6" d="M8.841.1l5.61-.1L8.8,10.433l6.221-.108S1.615,28.373.733,28.907,5.834,15.6,5.834,15.6L0,15.586Z" transform="matrix(1, 0.02, -0.02, 1, 32.66, 24.46)" fill="#efdb9c"/>
+      </g>
+    </g>
+  </g>
+</svg>

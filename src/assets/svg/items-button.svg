@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="133.655" height="124.482" viewBox="0 0 133.655 124.482">
+  <defs>
+    <filter id="Rectangle_123" x="0" y="0" width="133.655" height="124.482" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="items-button" transform="translate(-57 -1343)">
+    <g id="Group_31" data-name="Group 31">
+      <g transform="matrix(1, 0, 0, 1, 57, 1343)" filter="url(#Rectangle_123)">
+        <rect id="Rectangle_123-2" data-name="Rectangle 123" width="115.655" height="106.482" rx="15" transform="translate(9 6)" fill="#86471f"/>
+      </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(99 1371)">
+      <path id="Path_7" data-name="Path 7" d="M-55.367,5072.3s-6.735-1.348-11.585,0-15.626,7-17.781,14.548-3.5,23.708,10.238,25.324,25.805-.021,31.814.347c3.912.24,7.844-10.679,6.867-20.355-.51-5.053-3.081-9.823-6.377-12.263C-51.632,5072.914-55.367,5072.3-55.367,5072.3Z" transform="translate(86.089 -5050.479)" fill="#efdb9c"/>
+      <path id="Path_9" data-name="Path 9" d="M-32.233,5052.065h15.328v3.188s5.641,2.821,6.622,0" transform="translate(48.419 -5036.743)" fill="none" stroke="#dfcc8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Line_1" data-name="Line 1" x2="15.328" transform="translate(16.106 18.458)" fill="none" stroke="#dfcc8e" stroke-linecap="round" stroke-width="3"/>
+      <path id="Path_10" data-name="Path 10" d="M-32.09,5002.917s-4.047-2.7-6.622-1.472-4.537,1.226-1.839,5.519,3.066,5.885,3.066,5.885h10.3s2.7-6.254,4.169-7.234-.736-5.886-4.905-4.17S-32.09,5002.917-32.09,5002.917Z" transform="translate(55.143 -5001.084)" fill="#efdb9c"/>
+    </g>
+  </g>
+</svg>

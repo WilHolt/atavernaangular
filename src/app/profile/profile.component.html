@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+           
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogador</title>
+</head>
+
+<body class="amarelo-fundo">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            font-family: 'Cinzel', serif;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        .row {
+            margin-bottom: 5px !important;
+        }
+
+        .background{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .corzinha{
+            border-radius: 16px;
+            background-color: #86471c !important;
+        }
+    </style>
+
+    <div style="position: absolute; top: 0; left: 0; height: 40px; margin: 0; padding: 0; z-index: -1;">
+            <img class="responsive-img" src="http://loremflickr.com/700/200/brazil">
+    </div>
+
+    <header class="row" style="margin-top: 23px; margin-bottom: 15px !important">
+        <div class="valign-wrapper">
+            <img class="center-block responsive-img circle" src="https://loremflickr.com/145/145/cats">
+        </div>
+    </header>
+
+
+
+    <main class="row container center-align white-text">
+
+        <div class=" row corzinha valign-wrapper center-align white-text">
+            <h6 class="col s10">Altair John Cena</h6>
+            <div class="col s2 brown darken-2">
+                <h6><i class="material-icons">more_horiz</i></h6>
+            </div>
+        </div>
+
+        <div class="section row  valign-wrapper center-block">
+            <div class="col s8 row">
+                <img src="assets/svg/hp-icon.svg" class="responsive-img col s4">
+                <div class="progress col s8" style="height: 28px">
+                    <div class="determinate red" style="width: 100%"></div>
+                </div>
+                <img src="assets/svg/energy-icon.svg" class="responsive-img col s4">
+                <div class="progress  col col s8" style="height: 28px">
+                    <div class="determinate" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="col s4 valign-wrapper" style="position: relative;">
+                <a class="level white-text transparent center-align center-block corzinha" style="width: 150px; height: 90px;">
+                <h3>10</h3>
+                <h5>Nível</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row  ">
+            <div class="col s8 row attributes">
+                <div class="col s12">
+                    <h5 class="marrom-text left-align">Atributos</h5>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+            </div>
+            <div class="col s4 row valign-wrapper">
+                <br><br><br><br><br><br><br><br><br>
+                <img src="assets/svg/btn-right.svg" height="107px" width="107px;" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer container " style="padding: 0 !important" >
+        <nav class="nav-wrapper row transparent z-depth-0 accent-2">
+            <div class="center-align row btns-profile">
+                <a class=" waves-effect waves-light ">
+                    <img src="assets/svg/items-button.svg" width="100px" height="80"  alt=""> 
+                </a>
+                <a routerLink="" class="profile waves-effect waves-light ">
+                    <img src="assets/svg/Group 1.svg" width="150px" height="130px"  alt=""> 
+                </a>
+                <a class=" waves-effect waves-light">
+                        <img src="assets/svg/messages-button.svg" width="100px" height="80"  alt=""> 
+                </a>
+                    
+            </div>
+        </nav>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">M.AutoInit()</script>
+</body>
+
+</html>

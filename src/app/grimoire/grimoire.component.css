@@ -1,0 +1,43 @@
+body{
+    background: #EFDB9C;
+
+}
+.item-container{
+    background: #4E2B14;
+}
+
+footer{
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+}
+.page-footer{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background:#4E2B14!important;
+}
+nav a{
+    background: #86471F !important;
+}
+.btns-profile a{
+    background: none !important;
+
+}
+.profile{
+    z-index: 1000;
+    margin-top:-30px;
+}
+.brown{
+    background: #4E2B14 !important;
+}
+.top-itens img{
+    padding-top:10px;
+}
+.magia{
+    background: rgba(239, 220, 156, 0.075);
+    height: 63px !important;
+}
+h1,h2,h3,h4,h5,h6, span{
+    color:#EFDB9C !important;
+}

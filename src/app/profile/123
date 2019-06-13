@@ -1,0 +1,79 @@
+
+    <header class="row" style="margin-top: 23px; margin-bottom: 15px !important">
+        <div class="valign-wrapper">
+            <img class="center-block responsive-img circle" src="https://loremflickr.com/145/145/cats">
+        </div>
+    </header>
+    
+    <main class="row container center-align white-text">
+
+        <div class=" row corzinha valign-wrapper center-align white-text">
+            <h6 class="col s10">Altair John Cena</h6>
+            <div class="col s2 brown darken-2">
+                <h6><i class="material-icons">more_horiz</i></h6>
+            </div>
+        </div>
+
+        <div class="section row  valign-wrapper center-block">
+            <div class="col s8 row">
+                <img src="assets/svg/hp-icon.svg" class="responsive-img col s4">
+                <div class="progress col s8" style="height: 28px">
+                    <div class="determinate red" style="width: 100%"></div>
+                </div>
+                <img src="assets/svg/energy-icon.svg" class="responsive-img col s4">
+                <div class="progress  col col s8" style="height: 28px">
+                    <div class="determinate" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="col s4 valign-wrapper" style="position: relative;">
+                <a class="level white-text transparent center-align center-block corzinha" style="width: 150px; height: 90px;">
+                <h3>10</h3>
+                <h5>Nível</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="row  ">
+            <div class="col s8 row attributes">
+                <div class="col s12">
+                    <h5 class="marrom-text left-align">Atributos</h5>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+                <div class="col s6 row">
+                    <img src="assets/svg/sword-att.svg" class="col s6 responsive-img">
+                    <span class="col s6">12</span>
+                </div>
+            </div>
+            <div class="col s4 row valign-wrapper">
+                <br><br><br><br><br><br><br><br><br>
+                <img src="assets/svg/btn-right.svg" height="107px" width="107px;" alt="">
+            </div>
+        </div>
+    </main>
