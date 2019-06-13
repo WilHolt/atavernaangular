@@ -6,6 +6,7 @@ import { MasterComponent } from './master/master.component';
 import { ItemsComponent } from './items/items.component';
 import { BestiaryComponent } from './bestiary/bestiary.component';
 import { GrimoireComponent } from './grimoire/grimoire.component';
+import { EnterGameComponent } from './enter-game/enter-game.component';
 
 const routes: Routes = [
   {
@@ -30,13 +31,18 @@ const routes: Routes = [
     component:GrimoireComponent
   },
   {
-    path:'perfil',
-    component:ProfileComponent
+    path:'itempedia',
+    component:ItemsComponent
   },
   {
-    path:'perfil',
-    component:ProfileComponent
+    path:'entrar-jogo',
+    component:EnterGameComponent
   },
+  {
+    path:'criar-jogo',
+    component:EnterGameComponent
+  },
+  
 ];
 
 @NgModule({

@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BestiaryComponent } from './bestiary.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [BestiaryComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports:[BestiaryComponent]
 })
